@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" cotent="IE=edge">
-	<title>About | Antonio Tamayo</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact | Antonio Tamayo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
 </head>
 <body>
 
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="nameArt">Antonio Tamayo</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-<header id="masthead">
-	<div class="container">
-		<a>Antonio Tamayo</a>
-		<nav>
-			<a href="index.html">About</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="contact.html">Contact</a>
-		</nav>
-	</div>
-</header>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
 
-<div id="main-container" class="container">
-	<section class="main-section">
-		<h1>Contact</h1>
+            <form id="contact-form"> 
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter name" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Enter email" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit">
+            </form>
+        </section>
+        
+        <section class="sidebar">
+                <div>
+                    <h2>Connect With Me</h2>
+                    <a href="https://github.com/AntonioT1"><img src="github-cat-in-a-circle_318-41747 (1).jpg" class="social"></a>
+                </div>
+        </section>
 
-		<form>
-			<ul>
-				<li>
-					<label for="name">Name</label>
-					<input type="text" id="name" name="name" placeholder="Enter Name" required="required">
-				</li>
-				<li>
-					<label for="Email">Email</label>
-					<input type="text" id="Email" name="Email" placeholder="Enter Email" required="required">
-				</li>
-				<li>
-					<label for="Message">Message</label>
-					<textarea id="Message" name="Message" required="required"></textarea>
-						</li>
-			</ul>
-			<input type="submit">
-		</form>
-	</section>
+    </div>
 
-	<section class="sidebar">
-			<div>
-				<h2>Connect With Me</h2>
-				<a href="https://github.com/AntonioT1"><img src="yellow star.png" class="social"></a>
-			</div>
-		</section>
 
-</div>
 
-<footer>
-		<div>
-			Copyright &copy; 2018 Antonio Tamayo
-		</div>
-	</footer>
 
+    <footer>
+            <div>
+                Copyright &copy; 2018 Antonio Tamayo
+            </div>
+    </footer>
+    
 </body>
 </html>
